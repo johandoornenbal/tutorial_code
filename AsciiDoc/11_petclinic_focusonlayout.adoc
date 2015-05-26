@@ -1,0 +1,14 @@
+= Step 10: Focus on layout
+
+==== *the basics* in 10 minutes
+
+'''
+*Checkout the code with the results of this exercise on:*
+
+* link:https://github.com/johandoornenbal/petclinic_mynewcode/tree/tutorial07[]
+
+'''
+
+
+'''
+link:10_petclinic_addactions.adoc[<< BACK] | link:12_petclinic_.adoc[NEXT >>]
