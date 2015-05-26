@@ -1,0 +1,15 @@
+= Step 8: Add Pet Owner
+
+==== *the basics* in 10 minutes
+
+'''
+*Checkout the code with the results of this exercise on:*
+
+* link:https://github.com/johandoornenbal/petclinic_mynewcode/tree/tutorial05[]
+
+'''
+
+
+
+'''
+link:8_petclinic_addowner.adoc[<< BACK] | link:10_petclinic_.adoc[NEXT >>]

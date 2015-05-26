@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51fb736-dbaa-4054-988d-f8948d5560c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_4_1.png" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_4_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" afterPath="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" />
     </list>
     <ignored path="tutorial_docs.iws" />
@@ -31,34 +31,21 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-69.82758">
-              <caret line="135" column="129" selection-start-line="135" selection-start-column="129" selection-end-line="135" selection-end-column="129" />
+            <state vertical-scroll-proportion="-4.6551723">
+              <caret line="9" column="3" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4_petclinic_devenvironment.adoc" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AsciiDoc/4_petclinic_devenvironment.adoc">
-          <provider selected="true" editor-type-id="AsciiDocPreviewEditor">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7_petclinic_petspecies.adoc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AsciiDoc/7_petclinic_petspecies.adoc">
+      <file leaf-file-name="9_petclinic_advisit.adoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc">
           <provider editor-type-id="AsciiDocPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.551724">
-              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.2849741">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,6 +65,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" />
+        <option value="$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc" />
       </list>
     </option>
   </component>
@@ -318,8 +306,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.551724">
+        <state vertical-scroll-proportion="0.32642487">
           <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsciiDoc/4_petclinic_devenvironment.adoc">
+      <provider editor-type-id="AsciiDocPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53367877">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -329,19 +328,19 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-69.82758">
-          <caret line="135" column="129" selection-start-line="135" selection-start-column="129" selection-end-line="135" selection-end-column="129" />
+        <state vertical-scroll-proportion="-4.6551723">
+          <caret line="9" column="3" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AsciiDoc/4_petclinic_devenvironment.adoc">
-      <provider selected="true" editor-type-id="AsciiDocPreviewEditor">
+    <entry file="file://$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc">
+      <provider editor-type-id="AsciiDocPreviewEditor">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2849741">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

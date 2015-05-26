@@ -116,7 +116,7 @@ public Pet create(
 
 ==== update our fixtures
 
-We add `deleteFrom(PetOwner.class)` before `deleteFrom(Pet.class)`
+In our code we add `deleteFrom(PetOwner.class)` before `deleteFrom(Pet.class)`
 ----
  deleteFrom(Pet.class);
  deleteFrom(PetOwner.class);
@@ -135,6 +135,35 @@ Caused by: java.sql.SQLIntegrityConstraintViolationException: integrity constrai
 
 Got it? Since there is a dependency - `Pet` stores a `petOwner` - we first have to delete all pets and then delete the petOwners.
 
+Update `PetFixture`:
+----
+ @Override protected void execute(final ExecutionContext ec) {
+
+        deleteFrom(Pet.class);
+        deleteFrom(Owner.class);
+
+        create(ec, "Bello", PetSpecies.DOG, "Bill", "Gates");
+        create(ec, "Hector", PetSpecies.CAT, "Linus", "Torvalds");
+        create(ec, "Tweety", PetSpecies.BIRD, "Mark", "Zuckerberg");
+
+    }
+
+    private void create(
+            final ExecutionContext ec,
+            final String name,
+            final PetSpecies species,
+            final String firstName,
+            final String lastName) {
+        final Owner owner = owners.addOwner(firstName, lastName);
+        final Pet pet = pets.addPet(name, species, owner);
+        ec.addResult(this, pet);
+----
+
+==== update our tests
+
+The only alteration needed in `integtests` is in the `create()` method: for instance `wrap(pets).create("Pookie", PetSpecies.CAT, null)`
+
+The writing of Unit tests and additional integrationtests we leave here for you as an exercise.
 
 '''
-link:7_petclinic_petspecies.adoc[<< BACK] | link:9_petclinic_.adoc[NEXT >>]
+link:7_petclinic_petspecies.adoc[<< BACK] | link:9_petclinic_advisit.adoc[NEXT >>]
