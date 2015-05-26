@@ -1,4 +1,4 @@
-= Step 8: Add Pet Owner
+= Step 8: Add Visit
 
 ==== *the basics* in 10 minutes
 
@@ -9,6 +9,25 @@
 
 '''
 
+Now we will add the entity `Visit`.
+Start setting it up yourself the way we did with `PetOwner` using the UML in link:1_petclinic_introduction.adoc[] and
+compare your code with ours.
+
+Take note of how the framework deals with `LocalDate` in the UI
+
+image::images/Screen_Shot_9_1.png[]
+
+image::images/Screen_Shot_9_2.png[]
+
+
+Also try setting up autocompletion for `Pet` as you may have figured this is the linking property to `Visit`.
+Use the `findByName` action. Compare your code with ours.
+
+Don't forget to adapt your fixturescript:
+
+Put `deleteFrom(Visit.class)` before pets.
+
+Were this code meant for production, you may have written Unit and integration tests ....
 
 
 '''

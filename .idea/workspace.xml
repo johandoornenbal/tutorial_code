@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51fb736-dbaa-4054-988d-f8948d5560c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" afterPath="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc" afterPath="$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc" />
     </list>
     <ignored path="tutorial_docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +31,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.6551723">
-              <caret line="9" column="3" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+            <state vertical-scroll-proportion="-10.655172">
+              <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -40,12 +40,25 @@
       </file>
       <file leaf-file-name="9_petclinic_advisit.adoc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc">
-          <provider editor-type-id="AsciiDocPreviewEditor">
+          <provider selected="true" editor-type-id="AsciiDocPreviewEditor">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2849741">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1_petclinic_introduction.adoc" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc">
+          <provider selected="true" editor-type-id="AsciiDocPreviewEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,6 +180,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -323,24 +337,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc">
+      <provider selected="true" editor-type-id="AsciiDocPreviewEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc">
       <provider editor-type-id="AsciiDocPreviewEditor">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6551723">
-          <caret line="9" column="3" selection-start-line="4" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
+        <state vertical-scroll-proportion="-10.655172">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AsciiDoc/9_petclinic_advisit.adoc">
-      <provider editor-type-id="AsciiDocPreviewEditor">
+      <provider selected="true" editor-type-id="AsciiDocPreviewEditor">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2849741">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
           <folding />
         </state>
       </provider>

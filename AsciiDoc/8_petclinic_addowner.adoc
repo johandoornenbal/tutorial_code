@@ -56,6 +56,10 @@ on `PetOwner` we define a collection `pets` since an `PetOwner` can own 0 or mor
 
 Note the annotation `@Persistent(mappedBy = "petOwner", dependentElement = "false")` property `petOwner` on `Pet` is indicated to define the relationship.
 
+Notice also how Apache Isis automatically creates a 'create' button (the action `create()` on `Pets`) because of the defined relationship.
+
+image::images/Screen_Shot_8_2.png[]
+
 We will set up a query to find `PetOwner` s by name using `Predicates` as follows:
 
 in `PetOwner`
