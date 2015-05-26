@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51fb736-dbaa-4054-988d-f8948d5560c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_2_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_3_9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_4_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_4_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_4_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_5_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_5_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_5_3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_5_4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_5_5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_5_6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_5_7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_6_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_6_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/Screen_Shot_7_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/images/domain-model.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/2_petclinic_build_archetype.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/3_petclinic_usingtheapp.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/4_petclinic_devenvironment.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/5_petclinic_explorecodebase.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/6_petclinic_makingyourown.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/7_petclinic_petspecies.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tutorial_docs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" afterPath="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tutorial_docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +32,7 @@
           </provider>
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="56" column="103" selection-start-line="56" selection-start-column="103" selection-end-line="56" selection-end-column="103" />
               <folding />
             </state>
           </provider>
@@ -84,6 +46,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AsciiDoc/8_petclinic_addowner.adoc" />
+      </list>
     </option>
   </component>
   <component name="MavenRunner">
@@ -284,7 +253,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="728" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -324,7 +293,7 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="56" column="103" selection-start-line="56" selection-start-column="103" selection-end-line="56" selection-end-column="103" />
           <folding />
         </state>
       </provider>

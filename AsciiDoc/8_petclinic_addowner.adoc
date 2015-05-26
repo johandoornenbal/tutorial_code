@@ -10,50 +10,51 @@
 '''
 The tasks we will perform are:
 
-* Add the `Owner` entity and corresponding `Owners` domain service (repository).
-* Add a query to find `Owner` s by name.
+* Add the `PetOwner` entity and corresponding `PetOwners` domain service (repository).
+* Add a query to find `PetOwner` s by name.
 
-First try setting up `Owner` with the properties `firstName` and `lastName yourself`.
+First try setting up `PetOwner` with the properties `firstName` and `lastName yourself`.
 
-Then set up `Owners` domain service with method `addOwner()`.
+Then set up `PetOwners` domain service with method `addOwner()`.
 
 Compare your code to ours. You may have wondered already how to define the relationship between an
-`Owner` and it's `Pet` s. Here's is how we implement this 2-way relationship:
+`PetOwner` and it's `Pet` s. Here's is how we implement this 2-way relationship:
 
-on `Pet` we define `owner` of type `Owner` since a `Pet` can have 0 or 1 `Owner` - note how `owner` is annotated
+on `Pet` we define `petOwner` of type `PetOwner` since a `Pet` can have 0 or 1 `PetOwner` - note how `petOwner` is annotated
 with `@Column(allowsNull = "true")`:
 
 ----
-private Owner owner;
+private PetOwner petOwner;
 
-@MemberOrder(sequence = "3")
-@Column(name = "ownerId", allowsNull = "true")
-public Owner getOwner() {
-    return owner;
-}
+    @MemberOrder(sequence = "3")
+    @Column(name = "ownerId", allowsNull = "true")
+    public PetOwner getPetOwner() {
+        return petOwner;
+    }
 
-public void setOwner(final Owner owner) {
-    this.owner = owner;
-}
+    public void setPetOwner(final PetOwner petOwner) {
+        this.petOwner = petOwner;
+    }
 ----
 
-on `Owner` we define a collection `pets` since an `Owner` can own 0 or more `Pet` s:
+on `PetOwner` we define a collection `pets` since an `PetOwner` can own 0 or more `Pet` s:
 
 ----
-@Persistent(mappedBy = "owner", dependentElement = "false")
-private SortedSet<Pet> pets = new TreeSet<Pet>();
+@Persistent(mappedBy = "petOwner", dependentElement = "false")
+    private SortedSet<Pet> pets = new TreeSet<Pet>();
 
-@MemberOrder(sequence = "3")
-public SortedSet<Pet> getPets() {
-    return pets;
-}
+    @MemberOrder(sequence = "3")
+    @CollectionLayout(render = RenderType.EAGERLY)
+    public SortedSet<Pet> getPets() {
+        return pets;
+    }
 
-public void setPets(final SortedSet<Pet> pets) {
-    this.pets = pets;
-}
+    public void setPets(final SortedSet<Pet> pets) {
+        this.pets = pets;
+    }
 ----
 
-Note the annotation `@Persistent(mappedBy = "owner", dependentElement = "false")` property `owner` on `Pet` is indicated to define the relationship.
+Note the annotation `@Persistent(mappedBy = "petOwner", dependentElement = "false")` property `petOwner` on `Pet` is indicated to define the relationship.
 
 
 
