@@ -1,6 +1,6 @@
 = Step 7: Add Pet Owner
 
-==== *the basics* in 10 minutes
+==== *the basics* in 15 minutes
 
 '''
 *Checkout the code with the results of this exercise on:*
@@ -170,4 +170,4 @@ The only alteration needed in `integtests` is in the `create()` method: for inst
 The writing of Unit tests and additional integrationtests we leave here for you as an exercise.
 
 '''
-link:7_petclinic_petspecies.adoc[<< BACK] | link:9_petclinic_advisit.adoc[NEXT >>]
+link:7_petclinic_petspecies.adoc[<< BACK] | link:9_petclinic_addvisit.adoc[NEXT >>]

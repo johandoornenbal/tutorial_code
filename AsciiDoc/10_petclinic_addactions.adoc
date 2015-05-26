@@ -1,0 +1,15 @@
+= Step 9: Add actions and disable edit
+
+==== *the basics* in 10 minutes
+
+'''
+*Checkout the code with the results of this exercise on:*
+
+* link:https://github.com/johandoornenbal/petclinic_mynewcode/tree/tutorial05[]
+
+'''
+
+
+
+'''
+link:9_petclinic_addvisit.adoc[<< BACK] | link:11_petclinic_.adoc[NEXT >>]

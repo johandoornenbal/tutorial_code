@@ -27,8 +27,8 @@ Don't forget to adapt your fixturescript:
 
 Put `deleteFrom(Visit.class)` before pets.
 
-Were this code meant for production, you may have written Unit and integration tests ....
+Were this code meant for production, you may have written Unit and integration tests already ....
 
 
 '''
-link:8_petclinic_addowner.adoc[<< BACK] | link:10_petclinic_.adoc[NEXT >>]
+link:8_petclinic_addowner.adoc[<< BACK] | link:10_petclinic_addactions.adoc[NEXT >>]
