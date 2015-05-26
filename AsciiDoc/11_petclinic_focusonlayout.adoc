@@ -9,6 +9,28 @@
 
 '''
 
+In this step we are going to refine the UI.
+As mentioned before there are two ways of controlling the UI
+
+* the use of annotations
+* overruled by the use of `layout.json` files for more control
+
+When we look at
+
+image::images/Screen_Shot_11_1.png[]
+
+it is clear that the column `Pet Owner` is superfluous.
+
+We hide it by annotating `getPetOwner` with `@PropertyLayout(hidden = Where.REFERENCES_PARENT)`
+
+----
+@MemberOrder(sequence = "3")
+@Column(name = "ownerId", allowsNull = "true")
+@PropertyLayout(hidden = Where.REFERENCES_PARENT)
+public PetOwner getPetOwner() {
+    return petOwner;
+}
+----
 
 
 '''
