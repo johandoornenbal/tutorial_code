@@ -1,11 +1,11 @@
-= Step 10: Focus on layout
+= Step 11: Focus on layout
 
 ==== *the basics* in 10 minutes
 
 '''
 *Checkout the code with the results of this exercise on:*
 
-* link:https://github.com/johandoornenbal/petclinic_mynewcode/tree/tutorial07[]
+* link:https://github.com/johandoornenbal/petclinic_mynewcode/tree/tutorial08[]
 
 '''
 
@@ -17,7 +17,7 @@ As mentioned before there are two ways of controlling the UI
 
 When we look at
 
-image::images/Screen_Shot_11_1.png[]
+image::images/Screen_Shot_12_1.png[]
 
 it is clear that the column `Pet Owner` is superfluous.
 
@@ -32,7 +32,7 @@ public PetOwner getPetOwner() {
 }
 ----
 
-image::images/Screen_Shot_11_2.png[]
+image::images/Screen_Shot_12_2.png[]
 
 Now let's place the CREATE button above the pets collection.
 We start out with a `PetOwner.layout.json` file that contains basic json that divides the page in two halves (default)
@@ -91,7 +91,7 @@ We adapt column width and use the following to place the `create` action on the 
 }
 ----
 
-image::images/Screen_Shot_11_3.png[]
+image::images/Screen_Shot_12_3.png[]
 
 Now let's work a bit on `Visit`. Again we create a `layout.json` file called `Visit.layout.json` and store it with the object.
 
@@ -140,11 +140,11 @@ Now let's work a bit on `Visit`. Again we create a `layout.json` file called `Vi
 }
 ----
 
-image::images/Screen_Shot_11_4.png[]
+image::images/Screen_Shot_12_4.png[]
 
 Now it is your turn. Try something like this with `Pet` and compare your json with ours.
 
-image::images/Screen_Shot_11_5.png[]
+image::images/Screen_Shot_12_5.png[]
 
 '''
-link:10_petclinic_addactions.adoc[<< BACK] | link:12_petclinic_createhomepage.adoc[NEXT >>]
+link:11_petclinic_addcontributions.adoc[<< BACK] | link:13_petclinic_createhomepage.adoc[NEXT >>]

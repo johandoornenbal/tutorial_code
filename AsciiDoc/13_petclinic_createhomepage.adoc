@@ -1,0 +1,15 @@
+= Step 12: Create a Homepage
+
+==== *the basics* in 10 minutes
+
+'''
+*Checkout the code with the results of this exercise on:*
+
+* link:https://github.com/johandoornenbal/petclinic_mynewcode/tree/tutorial09[]
+
+'''
+
+
+
+'''
+link:12_petclinic_focusonlayout.adoc[<< BACK] | link:14_petclinic_addons.adoc[NEXT >>]

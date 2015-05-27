@@ -1,6 +1,0 @@
-= Step 12: using Apache Isis Add-ons
-
-==== *the basics* in 20 minutes
-
-'''
-link:12_petclinic_createhomepage.adoc[<< BACK]

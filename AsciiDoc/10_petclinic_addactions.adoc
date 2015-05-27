@@ -72,4 +72,4 @@ obj.addNote(notes);
 
 
 '''
-link:9_petclinic_addvisit.adoc[<< BACK] | link:11_petclinic_focusonlayout.adoc[NEXT >>]
+link:9_petclinic_addvisit.adoc[<< BACK] | link:11_petclinic_addcontributions.adoc[NEXT >>]

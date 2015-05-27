@@ -1,6 +1,0 @@
-= Step 11: Create a Homepage
-
-==== *the basics* in 10 minutes
-
-'''
-link:11_petclinic_focusonlayout.adoc[<< BACK] | link:13_petclinic_addons.adoc[NEXT >>]
