@@ -32,6 +32,119 @@ public PetOwner getPetOwner() {
 }
 ----
 
+image::images/Screen_Shot_11_2.png[]
+
+Now let's place the CREATE button above the pets collection.
+We start out with a `PetOwner.layout.json` file that contains basic json that divides the page in two halves (default)
+
+----
+{
+    "columns": [
+        {
+            "span": 6,
+            "memberGroups": {}
+        },
+        {
+            "span": 0,
+            "memberGroups": {}
+        },
+        {
+            "span": 0,
+            "memberGroups": {}
+        },
+        {
+            "span": 6,
+            "collections": {}
+        }
+    ],
+    "actions": {}
+}
+----
+We adapt column width and use the following to place the `create` action on the collection "pets"
+----
+{
+    "columns": [
+        {
+            "span": 4,
+            "memberGroups": {}
+        },
+        {
+            "span": 0,
+            "memberGroups": {}
+        },
+        {
+            "span": 0,
+            "memberGroups": {}
+        },
+        {
+            "span": 8,
+            "collections": {
+                "pets" : {
+                    "actions" : {
+                        "create" : {}
+                    }
+                }
+            }
+        }
+    ],
+    "actions": {}
+}
+----
+
+image::images/Screen_Shot_11_3.png[]
+
+Now let's work a bit on `Visit`. Again we create a `layout.json` file called `Visit.layout.json` and store it with the object.
+
+----
+{
+    "columns": [
+        {
+            "span": 6,
+            "memberGroups": {
+                "Visit information": {
+                    "members": {
+                        "pet": {},
+                        "checkInTime" : {},
+                        "checkOutTime" : {
+                            "actions" : {
+                                "checkout" : {}
+                            }
+                        }
+                    }
+                },
+                "Notes" : {
+                    "members": {
+                        "notes" : {
+                            "actions" : {
+                                "addNote" : {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "span": 0,
+            "memberGroups": {}
+        },
+        {
+            "span": 0,
+            "memberGroups": {}
+        },
+        {
+            "span": 6,
+            "collections": {}
+        }
+    ],
+    "actions": {}
+}
+----
+
+image::images/Screen_Shot_11_4.png[]
+
+Now it is your turn. Try something like this with `Pet` and compare your json with ours.
+
+image::images/Screen_Shot_11_5.png[]
 
 '''
 link:10_petclinic_addactions.adoc[<< BACK] | link:12_petclinic_createhomepage.adoc[NEXT >>]
