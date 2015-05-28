@@ -12,7 +12,7 @@ Add-ons are not part of ASF, but are maintained by the Apache Isis Committers.
 
 '''
 Detailed installation instructions and examples can be found in the github repo of each add-on.
-Let's install them all at once here:
+Let's install them all at once here - though we wait with adapting `shiro.ini` to use the security module until later.
 
 We add the following properties to our project's `pom.xml`
 ----
@@ -163,13 +163,75 @@ image::images/Screen_Shot_14_3.png[]
 
 ==== isis-module-audit
 
+Let's annotate `Visit` with
+----
+@DomainObject(auditing = Auditing.ENABLED)
+----
 
+When the audit add-on is activated a menu item 'Activity' is added to the UI. Use 'Find Audit Entries' to see what happened in `Visit`.
+
+image::images/Screen_Shot_14_4.png[]
+
+==== isis-module-sessionlogger
+
+Activating the sessionlogger adds the following to the menu item 'Activity':
+
+* Active Sessions
+* Find Sessions
+
+image::images/Screen_Shot_14_5.png[]
 
 ==== isis-module-command
 
+Activating the sessionlogger adds the following to the menu item 'Activity':
+
+* Active Commands
+* Find Commands
+* Find Command by Id
+
+image::images/Screen_Shot_14_6.png[]
+
 ==== isis-module-security
 
-==== isis-module-sessionlogger
+When activating the security module we adapt `isis.properties`
+----
+isis.services = \
+                # customizable exception handling, \
+                org.apache.isis.objectstore.jdo.applib.service.exceprecog.ExceptionRecognizerCompositeForJdoObjectStore, \
+                # Security module, \
+                org.isisaddons.module.security.dom.password.PasswordEncryptionServiceUsingJBcrypt,\
+                org.isisaddons.module.security.dom.permission.PermissionsEvaluationServiceAllowBeatsVeto
+----
+
+and
+
+`shiro.ini` we tell Shiro to use the security module
+
+----
+# to use .ini file
+#securityManager.realms = $iniRealm
+
+# Use isis-module-security
+isisModuleSecurityRealm=org.isisaddons.module.security.shiro.IsisModuleSecurityRealm
+authenticationStrategy=org.isisaddons.module.security.shiro.AuthenticationStrategyForIsisModuleSecurityRealm
+securityManager.authenticator.authenticationStrategy = $authenticationStrategy
+
+securityManager.realms = $isisModuleSecurityRealm
+----
+
+When building and restarting you notice that 'sven' is no longer admitted.
+(A clear sign that we use a new authorization system.) Instead we have to login as 'isis-module-security-admin' with
+default password 'pass' in order to setup the security.
+
+As an exercise study the documentation on link:https://github.com/isisaddons/isis-module-security[isis-module-security] and
+try setting up 'sven' again as a local user with the appropriate rights. Just remember that - when you use an in-memory database like
+we did in this tutorial - you loose your configuration between runs.
+
+image::images/Screen_Shot_14_7.png[]
+
+image::images/Screen_Shot_14_8.png[]
+
+image::images/Screen_Shot_14_9.png[]
 
 '''
 link:13_petclinic_createhomepage.adoc[<< BACK]
