@@ -20,7 +20,7 @@ Our app will support the following use cases::
 
 Every step will highlight new features of the Apache Isis approach in order for you to become
 familiar with some core concepts and features.
-All this in just about 2 hours of your time once you have set up your development environment.
+All this in just over 2 hours of your time once you have set up your development environment.
 You can follow along step by step and / or check out the tags from the
 corresponding link:https://github.com/johandoornenbal/petclinic[github repo].
 

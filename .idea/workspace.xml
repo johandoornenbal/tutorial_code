@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a51fb736-dbaa-4054-988d-f8948d5560c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsciiDoc/14_petclinic_addons.adoc" afterPath="$PROJECT_DIR$/AsciiDoc/14_petclinic_addons.adoc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc" afterPath="$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc" />
     </list>
     <ignored path="tutorial_docs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="14_petclinic_addons.adoc" pinned="false" current-in-tab="true">
+      <file leaf-file-name="14_petclinic_addons.adoc" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AsciiDoc/14_petclinic_addons.adoc">
           <provider selected="true" editor-type-id="AsciiDocPreviewEditor">
             <state />
@@ -32,6 +32,19 @@
           <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="227" column="25" selection-start-line="227" selection-start-column="25" selection-end-line="227" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1_petclinic_introduction.adoc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc">
+          <provider editor-type-id="AsciiDocPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5799649">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -86,6 +99,7 @@
         <option value="$PROJECT_DIR$/AsciiDoc/12_petclinic_focusonlayout.adoc" />
         <option value="$PROJECT_DIR$/AsciiDoc/13_petclinic_createhomepage.adoc" />
         <option value="$PROJECT_DIR$/AsciiDoc/14_petclinic_addons.adoc" />
+        <option value="$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc" />
       </list>
     </option>
   </component>
@@ -484,6 +498,7 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,16 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc">
-      <provider selected="true" editor-type-id="AsciiDocPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AsciiDoc/12_petclinic_focusonlayout.adoc">
       <provider editor-type-id="AsciiDocPreviewEditor">
         <state />
@@ -628,6 +633,17 @@
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="227" column="25" selection-start-line="227" selection-start-column="25" selection-end-line="227" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AsciiDoc/1_petclinic_introduction.adoc">
+      <provider editor-type-id="AsciiDocPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5799649">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
